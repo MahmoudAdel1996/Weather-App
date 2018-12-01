@@ -42,3 +42,14 @@ nav .active{
     background-color: rgb(3, 52, 93)
 }
 /* end nav bar */
+/* start header */
+header h1{
+    color: #fff;
+    text-align: center;
+    margin: 50px;
+}
+header h1 span{
+    color: red;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace
+}
