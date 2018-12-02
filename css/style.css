@@ -8,7 +8,11 @@ li{
     cursor: pointer;
 }
 body{
-    background-color: rgb(3, 52, 93)
+    background-color: rgb(3, 52, 93);
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 
 
@@ -57,16 +61,18 @@ header .header-icon{
 header .header-icon i{
     color:#fff;
     font-size: 10rem;
-    padding: 100px;
+    padding: 70px;
 }
 
 /* end header */
 /* start main section */
-
+main{
+    margin-bottom: 50px
+}
 main .day{
     text-align: center;
     padding: 40px 20px;
-    border: 1px dotted rgba(255, 255, 255, 0.479);
+    border: 1px solid rgb(129, 129, 129);
     color: #fff
 }
 main .day img{
@@ -79,10 +85,11 @@ main .day img{
 footer{
     background-color: rgba(1, 3, 31, 0.514);
     color: #fff;
-    width: 100%;
+    text-align: center;
+    padding: 5px;
     position: absolute;
     bottom: 0;
-    text-align: center;
-    padding: 5px
+    left: 0;
+    right: 0;
 }
 /* start footer */
