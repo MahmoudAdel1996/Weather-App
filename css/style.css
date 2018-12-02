@@ -22,7 +22,7 @@ nav ul {
 nav .nav-left .logo{
     font-size: 35px;
     padding: 4px;
-    color: rgba(255, 255, 0, 0.794);
+    color: #fff;
     float: left;
 }
 nav .nav-left .login {
@@ -41,15 +41,33 @@ nav li:hover,
 nav .active{
     background-color: rgb(3, 52, 93)
 }
+
 /* end nav bar */
 /* start header */
-header h1{
-    color: #fff;
+
+header .header-icon{
+    text-align: center
+}
+header .header-icon i{
+    color:#fff;
+    font-size: 10rem;
+    padding: 100px;
+}
+
+/* end header */
+/* start main section */
+
+main{
+    color:#fff;
+}
+
+main .day{
     text-align: center;
-    margin: 50px;
+    padding: 40px 20px;
+    border: 1px dotted rgba(255, 255, 255, 0.479)
 }
-header h1 span{
-    color: red;
-    font-weight: 800;
-    font-family: 'Courier New', Courier, monospace
+main .day img{
+    width: 64px;
 }
+
+/* end main section */

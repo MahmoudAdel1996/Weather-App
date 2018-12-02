@@ -10,7 +10,9 @@
     <title>Weather</title>
 </head>
 <body>
+
     <!-- Nav Bar -->
+
     <nav>
         <ul class="clearfix">
             <div class="nav-right">
@@ -31,10 +33,58 @@
             </div>
         </ul>
     </nav>
+
     <!-- Header Bar -->
+
     <header>
-        <h1><span>W</span>eather <span>P</span>ridiction</h1>
+        <div class="header-icon">
+            <i class="fas fa-cloud-moon"></i>
+        </div>
     </header>
+
+    <!-- Main Section -->
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <section class="col-3">
+                    <div class="day">
+                        <h6>Today</h6>
+                        <img src="image/rain_s_cloudy.png" alt="rain_cloudy">
+                        <div>
+                            19 &#x2103;
+                        </div>
+                    </div>
+                </section>
+                <section class="col-9">
+                    <div class="row">
+                        <div class="col-4 day">
+                            <h6>Monday</h6>
+                            <img src="image/rain.png" alt="rain_cloudy">
+                            <div>
+                                25 &#x2103;
+                            </div>
+                        </div>
+                        <div class="col-4 day">
+                            <h6>Tuesday</h6>
+                            <img src="image/partly_cloudy.png" alt="rain_cloudy">
+                            <div>
+                                21 &#x2103;
+                            </div>
+                        </div>
+                        <div class="col-4 day">
+                            <h6>Wednesday</h6>
+                            <img src="image/thunderstorms.png" alt="rain_cloudy">
+                            <div>
+                                15 &#x2103;
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
