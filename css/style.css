@@ -30,18 +30,22 @@ nav .nav-left .login {
     padding: 10px;
     margin: 0 5px;
     float: left;
-    text-decoration: none
+    text-decoration: none;
+    transition: 0.3s background-color ease-in-out;
 }
 nav .nav-right li a{
     float: right;
     padding: 10px;
     margin: 0 5px;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
+    transition: 0.3s background-color ease-in-out;
+
 }
 nav li a:hover,
 nav .active{
-    background-color: rgb(3, 52, 93)
+    background-color: rgb(3, 52, 93);
+    
 }
 
 /* end nav bar */
