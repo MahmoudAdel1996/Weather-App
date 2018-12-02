@@ -30,14 +30,16 @@ nav .nav-left .login {
     padding: 10px;
     margin: 0 5px;
     float: left;
+    text-decoration: none
 }
-nav .nav-right li {
+nav .nav-right li a{
     float: right;
     padding: 10px;
     margin: 0 5px;
     color: #fff;
+    text-decoration: none
 }
-nav li:hover,
+nav li a:hover,
 nav .active{
     background-color: rgb(3, 52, 93)
 }
@@ -57,17 +59,26 @@ header .header-icon i{
 /* end header */
 /* start main section */
 
-main{
-    color:#fff;
-}
-
 main .day{
     text-align: center;
     padding: 40px 20px;
-    border: 1px dotted rgba(255, 255, 255, 0.479)
+    border: 1px dotted rgba(255, 255, 255, 0.479);
+    color: #fff
 }
 main .day img{
     width: 64px;
 }
 
 /* end main section */
+/* start footer */
+
+footer{
+    background-color: rgba(1, 3, 31, 0.514);
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 5px
+}
+/* start footer */
